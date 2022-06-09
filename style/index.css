@@ -1,0 +1,33 @@
+#navbar{
+    display: flex;
+    border: 1.5px solid red;
+    /* height: px; */
+    width: 99%;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(206, 194, 194);
+    text-decoration: aliceblue;
+}
+#query{
+    height: 40px;
+
+    width: 50%;
+    margin-left: 300px;
+    border-radius: 20px;
+    text-align: center;
+  
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* gap: px; */
+    text-align: center;
+}
+.div{
+    height: 200px;
+    width: 200px;
+}
+img{
+    height: 70%;
+    width: 100%;
+}
